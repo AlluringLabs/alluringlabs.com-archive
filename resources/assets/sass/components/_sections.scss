@@ -1,0 +1,73 @@
+@import "framework";
+
+section.section {
+
+  &.bg-cover {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  &.bg-none {
+    background-color: none;
+  }
+
+  &.bg-light {
+    background: #FFF;
+  }
+
+  &.hero {
+    padding: 40px 0;
+    position: relative;
+
+    .title {
+      font-size: 45px;
+      line-height: 1;
+      color: #fff;
+      position: relative;
+      z-index: 10;
+      font-weight: 200;
+    }
+
+    .content {
+      position: relative;
+      z-index: 10;
+    }
+
+    &:before {
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      // Dark:
+      background-color: rgba(66, 66, 66, .73);
+      // Blue:
+      // background-color: rgba(62, 124, 146, .73);
+    }
+  }
+
+  .header {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #BBBBBB;
+    &.thin {
+      font-weight: 200;
+    }
+
+    &.light {
+      color: #FFF;
+    }
+  }
+
+  .footer {
+    .large-link {
+      font-size: 20px;
+    }
+  }
+}
+
+@import "post";

@@ -1,0 +1,24 @@
+.post-card {
+  background: #fff;
+  border: 1px solid #D8D8D8;
+  border-radius: 3px;
+
+  img {
+    width: 100%;
+  }
+
+  .info {
+    padding: 6px 12px;
+    .title {
+      font-size: 18px;
+      color: #727272;
+      line-height: 1.2;
+      padding-bottom: 15px;
+    }
+
+    .meta {
+      color: #AAAAAA;
+      text-transform: uppercase;
+    }
+  }
+}

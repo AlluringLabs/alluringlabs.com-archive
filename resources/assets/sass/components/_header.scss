@@ -1,0 +1,46 @@
+// TODO: Move these colors and stuff to its own file
+
+.top-bar {
+  display: block;
+  height: 10px;
+  position: relative;
+  background: #55A9C7;
+  z-index: 20;
+}
+
+.main-header {
+  background: #F6F6F6;
+  // border-top: 10px solid #55A9C7;
+  padding: 10px 0;
+
+  .site-name {
+    color: #B6B6B6;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    span {}
+    .svg-logo {
+      margin-top: -30px;
+      position:relative;
+      z-index: 10;
+    }
+  }
+
+  .nav {
+    .nav-link {
+      padding: 5px 8px;
+      text-transform: uppercase;
+      color: #55A9C7;
+
+      &.active {
+        color: #3E7C92;
+        font-weight: 600;
+      }
+
+      &:first-of-type {
+        padding-left: 0px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,11 @@
+body {
+  background-color: #EBEBEB;
+  font-family: "lato", sans-serif;
+}
+
+a {
+  color: #55A9C7;
+  &:hover {
+    color: #3E7C92;
+  }
+}

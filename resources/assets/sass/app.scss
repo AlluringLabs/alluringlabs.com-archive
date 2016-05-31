@@ -1,2 +1,9 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "settings";
 
+// Global Stuff
+@import "global/styles";
+
+// Components
+@import "components/header";
+@import "components/sections";
