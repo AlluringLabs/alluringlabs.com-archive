@@ -4586,7 +4586,8 @@ body {
   font-family: "lato", sans-serif; }
 
 a {
-  color: #55A9C7; }
+  color: #55A9C7;
+  text-decoration: none; }
   a:hover {
     color: #3E7C92; }
 
@@ -4623,6 +4624,14 @@ a {
   background: #FFF;
   border-radius: 3px;
   padding: 20px 10px; }
+  .framework.dark-hover:hover {
+    background-color: #666;
+    transition: all 200ms ease-in-out;
+    color: #fff; }
+  .framework.light-hover:hover {
+    background-color: #55A9C7;
+    transition: all 200ms ease-in-out;
+    color: #333; }
   .framework .logo {
     display: block;
     height: 75px;
@@ -4665,7 +4674,10 @@ section.section.hero {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%; }
+  section.section.hero.blue:before {
+    background-color: rgba(62, 124, 146, 0.73); }
+  section.section.hero.dark:before {
     background-color: rgba(66, 66, 66, 0.73); }
 
 section.section .header {

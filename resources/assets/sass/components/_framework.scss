@@ -2,6 +2,23 @@
   background: #FFF;
   border-radius: 3px;
   padding: 20px 10px;
+
+  &.dark-hover {
+    &:hover {
+      background-color: #666;
+      transition: all 200ms ease-in-out;
+      color: #fff;
+    }
+  }
+
+  &.light-hover {
+    &:hover {
+      background-color: #55A9C7;
+      transition: all 200ms ease-in-out;
+      color: #333;
+    }
+  }
+
   .logo {
     display: block;
     height: 75px;

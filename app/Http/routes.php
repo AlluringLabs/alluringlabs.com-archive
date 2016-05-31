@@ -12,3 +12,12 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+Route::group(['prefix' => 'blog'], function() {
+    Route::get('/', 'BlogController@index');
+    Route::get('/{slug}', 'BlogController@show');
+});
+
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
+    // Admin routes and controllers
+});

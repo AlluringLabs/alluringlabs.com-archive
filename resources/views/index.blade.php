@@ -2,7 +2,7 @@
 
 @section('main')
   @include('partials.hero')
-  @include('partials.posts')
+  @include('partials.posts', ['posts' => $posts])
   @include('partials.services')
   @include('partials.team')
 @endsection

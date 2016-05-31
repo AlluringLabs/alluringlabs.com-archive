@@ -43,10 +43,18 @@ section.section {
       top: 0;
       left: 0;
       width: 100%;
-      // Dark:
-      background-color: rgba(66, 66, 66, .73);
-      // Blue:
-      // background-color: rgba(62, 124, 146, .73);
+    }
+
+    &.blue {
+      &:before {
+        background-color: rgba(62, 124, 146, .73);
+      }
+    }
+
+    &.dark {
+      &:before {
+        background-color: rgba(66, 66, 66, .73);
+      }
     }
   }
 
