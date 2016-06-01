@@ -1,4 +1,4 @@
-<section class="section bg-none m-t-2 m-b-2">
+<section class="section bg-none padded">
   <div class="container">
     <div class="header m-b-1 text-xs-center">Recent Posts</div>
     <div class="content">

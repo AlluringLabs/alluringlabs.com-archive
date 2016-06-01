@@ -4642,6 +4642,9 @@ a {
     font-size: 18px;
     font-weight: 600; }
 
+section.section.padded {
+  padding: 30px 0; }
+
 section.section.bg-cover {
   background-size: cover;
   background-position: bottom;
@@ -4667,6 +4670,8 @@ section.section.hero {
   section.section.hero .content {
     position: relative;
     z-index: 10; }
+  section.section.hero .text {
+    color: #fff; }
   section.section.hero:before {
     content: "";
     display: block;
@@ -4699,7 +4704,7 @@ section.section .footer .large-link {
   .post-card img {
     width: 100%; }
   .post-card .info {
-    padding: 6px 12px; }
+    padding: 10px 15px; }
     .post-card .info .title {
       font-size: 18px;
       color: #727272;
@@ -4707,6 +4712,7 @@ section.section .footer .large-link {
       padding-bottom: 15px; }
     .post-card .info .meta {
       color: #AAAAAA;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 14px; }
 
 /*# sourceMappingURL=app.css.map */

@@ -2,6 +2,10 @@
 
 section.section {
 
+  &.padded {
+    padding: 30px 0;
+  }
+
   &.bg-cover {
     background-size: cover;
     background-position: bottom;
@@ -33,6 +37,10 @@ section.section {
     .content {
       position: relative;
       z-index: 10;
+    }
+
+    .text {
+      color: #fff;
     }
 
     &:before {
