@@ -1,12 +1,13 @@
 body {
-  background-color: #EBEBEB;
+  background-color: $bg-color;
   font-family: "lato", sans-serif;
 }
 
 a {
-  color: #55A9C7;
-  text-decoration: none;
+  color: $link-color;
+  transition: color 150ms ease-in-out;
   &:hover {
-    color: #3E7C92;
+    text-decoration: none;
+    color: $link-hover-color;
   }
 }

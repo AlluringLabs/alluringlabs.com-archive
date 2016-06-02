@@ -1,4 +1,6 @@
 @import "framework";
+@import "services";
+@import "team";
 
 section.section {
 
@@ -28,7 +30,7 @@ section.section {
     .title {
       font-size: 45px;
       line-height: 1;
-      color: #fff;
+      color: $light-text;
       position: relative;
       z-index: 10;
       font-weight: 200;
@@ -40,7 +42,7 @@ section.section {
     }
 
     .text {
-      color: #fff;
+      color: $light-text;
     }
 
     &:before {
@@ -55,13 +57,13 @@ section.section {
 
     &.blue {
       &:before {
-        background-color: rgba(62, 124, 146, .73);
+        background-color: $blue-overlay;
       }
     }
 
     &.dark {
       &:before {
-        background-color: rgba(66, 66, 66, .73);
+        background-color: $dark-overlay;
       }
     }
   }
@@ -69,19 +71,32 @@ section.section {
   .header {
     text-transform: uppercase;
     font-size: 25px;
-    color: #BBBBBB;
+    color: $header-text;
     &.thin {
       font-weight: 200;
     }
 
     &.light {
-      color: #FFF;
+      color: $light-text;
     }
   }
 
   .footer {
     .large-link {
       font-size: 20px;
+    }
+    .large-link-btn {
+      font-size: 20px;
+      text-transform: uppercase;
+      color: $light-text;
+      padding: 15px 30px;
+      margin: 0 auto;
+      display: table;
+      background: $light-blue;
+      transition: background 150ms ease;
+      &:hover {
+        background: $dark-blue;
+      }
     }
   }
 }

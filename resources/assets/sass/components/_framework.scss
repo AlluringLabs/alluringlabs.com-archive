@@ -5,17 +5,17 @@
 
   &.dark-hover {
     &:hover {
-      background-color: #666;
+      background-color: $dark-grey;
       transition: all 200ms ease-in-out;
-      color: #fff;
+      color: $light-text;
     }
   }
 
   &.light-hover {
     &:hover {
-      background-color: #55A9C7;
+      background-color: $light-blue;
       transition: all 200ms ease-in-out;
-      color: #333;
+      color: $dark-text;
     }
   }
 

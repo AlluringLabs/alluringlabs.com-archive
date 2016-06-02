@@ -4587,9 +4587,10 @@ body {
 
 a {
   color: #55A9C7;
-  text-decoration: none; }
+  transition: color 150ms ease-in-out; }
   a:hover {
-    color: #3E7C92; }
+    text-decoration: none;
+    color: #014c8c; }
 
 .top-bar {
   display: block;
@@ -4625,9 +4626,9 @@ a {
   border-radius: 3px;
   padding: 20px 10px; }
   .framework.dark-hover:hover {
-    background-color: #666;
+    background-color: #333;
     transition: all 200ms ease-in-out;
-    color: #fff; }
+    color: #FFF; }
   .framework.light-hover:hover {
     background-color: #55A9C7;
     transition: all 200ms ease-in-out;
@@ -4641,6 +4642,30 @@ a {
     text-align: center;
     font-size: 18px;
     font-weight: 600; }
+
+.service img {
+  transition: all 200ms ease; }
+
+.service:hover img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.service:hover .info {
+  background-color: #FBFBFB;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.service .info {
+  padding: 20px 23px;
+  transition: all 200ms ease; }
+  .service .info .title {
+    margin-bottom: 15px;
+    font-size: 20px; }
+  .service .info .description {
+    font-size: 14px; }
+  .service .info .more {
+    font-size: 18px;
+    margin-top: 20px; }
 
 section.section.padded {
   padding: 30px 0; }
@@ -4663,7 +4688,7 @@ section.section.hero {
   section.section.hero .title {
     font-size: 45px;
     line-height: 1;
-    color: #fff;
+    color: #FFF;
     position: relative;
     z-index: 10;
     font-weight: 200; }
@@ -4671,7 +4696,7 @@ section.section.hero {
     position: relative;
     z-index: 10; }
   section.section.hero .text {
-    color: #fff; }
+    color: #FFF; }
   section.section.hero:before {
     content: "";
     display: block;
@@ -4696,6 +4721,18 @@ section.section .header {
 
 section.section .footer .large-link {
   font-size: 20px; }
+
+section.section .footer .large-link-btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 15px 30px;
+  margin: 0 auto;
+  display: table;
+  background: #55A9C7;
+  transition: background 150ms ease; }
+  section.section .footer .large-link-btn:hover {
+    background: #3E7C92; }
 
 .post-card {
   background: #fff;

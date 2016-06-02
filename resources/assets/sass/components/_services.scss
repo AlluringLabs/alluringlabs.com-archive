@@ -1,0 +1,36 @@
+.service {
+
+  img {
+    transition: all 200ms ease;
+  }
+
+  &:hover {
+    img {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .info {
+      background-color: $light-grey;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+
+  .info {
+    padding: 20px 23px;
+    transition: all 200ms ease;
+    .title {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+    .description {
+      font-size: 14px;
+    }
+    .more {
+      font-size: 18px;
+      margin-top: 20px;
+      // color: $light-blue;
+    }
+  }
+
+}

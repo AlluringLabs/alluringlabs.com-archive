@@ -11,14 +11,34 @@
     <div class="content">
       <div class="row">
         <div class="col-md-4 col-lg-4 col-sm-6">
-          {{-- TODO: Turn these into links or something to somewhere --}}
-
+          <div class="team">
+            <img src="http://placehold.it/350x200" alt="">
+            <div class="info">
+              <div class="name">Joshua Kidd</div>
+              <div class="social"></div>
+              <div class="description">Some dumb description about this person.</div>
+            </div>
+          </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6">
-
+          <div class="team">
+            <img src="http://placehold.it/350x200" alt="">
+            <div class="info">
+              <div class="name">Joshua Kidd</div>
+              <div class="social"></div>
+              <div class="description">Some dumb description about this person.</div>
+            </div>
+          </div>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-6">
-
+          <div class="team">
+            <img src="http://placehold.it/350x200" alt="">
+            <div class="info">
+              <div class="name">Joshua Kidd</div>
+              <div class="social"></div>
+              <div class="description">Some dumb description about this person.</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

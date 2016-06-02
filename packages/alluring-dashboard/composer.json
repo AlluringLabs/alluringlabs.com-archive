@@ -1,0 +1,13 @@
+{
+    "name": "alluringlabs/dashboard",
+    "description": "Componentized and modular admin package for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Kidd",
+            "email": "kidd.josh.343@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
