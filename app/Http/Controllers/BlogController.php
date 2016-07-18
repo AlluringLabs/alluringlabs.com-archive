@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use SEO;
 use App\Post;
 use App\Http\Requests;
 
@@ -19,6 +20,9 @@ class BlogController extends Controller
     public function show($slug)
     {
         $post = Post::where('slug', '=', $slug)->first();
+
+        SEO::setTitle($post->title);
+
         return view('blog.post', ['post' => $post]);
     }
 

@@ -3,6 +3,8 @@
 <head>
   <title>Alluring Labs</title>
 
+  @stack('seo')
+
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/app.css" media="screen" charset="utf-8">
 </head>

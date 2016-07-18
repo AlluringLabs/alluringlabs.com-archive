@@ -12,12 +12,17 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/contact', 'ContactController@index');
+Route::get('/tools', 'ToolsController@index');
 
 Route::group(['prefix' => 'blog'], function() {
     Route::get('/', 'BlogController@index');
     Route::get('/{slug}', 'BlogController@show');
 });
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function() {
-    // Admin routes and controllers
+Route::group(['prefix' => 'services'], function() {
+	Route::get('/', 'ServicesController@index');
+	Route::get('/development', 'ServicesController@development');
+	Route::get('/consulting', 'ServicesController@consulting');
+	Route::get('/design', 'ServicesController@design');
 });

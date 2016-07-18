@@ -4667,6 +4667,25 @@ a {
     font-size: 18px;
     margin-top: 20px; }
 
+.services-description {
+  background-color: #FFF;
+  padding: 20px 30px;
+  border-radius: 4px; }
+  .services-description p {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .services-description p:first-of-type {
+      padding-bottom: 15px; }
+
+.btn-quote {
+  background: #333;
+  display: block;
+  font-size: 1.3rem;
+  padding: 15px 20px; }
+  .btn-quote:hover {
+    background: #55A9C7;
+    color: #333; }
+
 section.section.padded {
   padding: 30px 0; }
 
