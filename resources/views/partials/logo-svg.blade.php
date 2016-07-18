@@ -1,4 +1,4 @@
-<svg class="svg-logo" width="40px" height="50px" viewBox="15 18 297 364" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg class="svg-logo" width="60px" height="70px" viewBox="15 18 297 364" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs>

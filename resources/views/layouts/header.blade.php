@@ -7,14 +7,14 @@
         @include('partials.logo-svg')
         <span>Labs</span>
       </div>
-      <nav class="nav">
-        <a class="nav-link active" href="/">Home</a>
-        <a class="nav-link" href="https://blog.alluringlabs.com" target="_blank">Blog</a>
-        <a class="nav-link" href="/services">Services</a>
-        <a class="nav-link" href="/work">Work</a>
-      </nav>
     </div>
     <div class="pull-xs-right">
+      <nav class="nav">
+        <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Home</a>
+        <a class="nav-link" href="https://blog.alluringlabs.com" target="_blank">Blog</a>
+        <a class="nav-link {{ Request::is('services*') ? 'active' : '' }}" href="/services">Services</a>
+        <a class="nav-link {{ Request::is('/work') ? 'active' : '' }}" href="/work">Work</a>
+      </nav>
     </div>
   </div>
 </header>

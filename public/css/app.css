@@ -4601,18 +4601,19 @@ a {
 
 .main-header {
   background: #F6F6F6;
-  padding: 10px 0; }
+  padding: 15px 0; }
   .main-header .site-name {
     color: #B6B6B6;
-    font-size: 25px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: 300; }
     .main-header .site-name .svg-logo {
       margin-top: -30px;
+      padding-top: 5px;
       position: relative;
       z-index: 10; }
   .main-header .nav .nav-link {
-    padding: 5px 8px;
+    padding: 13px 10px;
     text-transform: uppercase;
     color: #55A9C7; }
     .main-header .nav .nav-link.active {

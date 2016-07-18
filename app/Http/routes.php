@@ -11,18 +11,19 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
-Route::get('/contact', 'ContactController@index');
-Route::get('/tools', 'ToolsController@index');
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/contact', 'ContactController@index')->name('contact');
+Route::get('/tools', 'ToolsController@index')->name('tools');
+Route::get('/work', 'WorkController@index')->name('work');
 
 Route::group(['prefix' => 'blog'], function() {
-    Route::get('/', 'BlogController@index');
-    Route::get('/{slug}', 'BlogController@show');
+    Route::get('/', 'BlogController@index')->name('blog');
+    Route::get('/{slug}', 'BlogController@show')->name('blog.show');
 });
 
 Route::group(['prefix' => 'services'], function() {
-	Route::get('/', 'ServicesController@index');
-	Route::get('/development', 'ServicesController@development');
-	Route::get('/consulting', 'ServicesController@consulting');
-	Route::get('/design', 'ServicesController@design');
+	Route::get('/', 'ServicesController@index')->name('services');
+	Route::get('/development', 'ServicesController@development')->name('services.dev');
+	Route::get('/consulting', 'ServicesController@consulting')->name('services.consulting');
+	Route::get('/design', 'ServicesController@design')->name('services.design');
 });
