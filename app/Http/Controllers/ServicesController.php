@@ -14,4 +14,19 @@ class ServicesController extends Controller
 		return view('services');
 	}
 
+	public function development()
+	{
+		return view('services.development');
+	}
+
+	public function design()
+	{
+		return view('services.design');
+	}
+
+	public function consulting()
+	{
+		return view('services.consulting');
+	}
+
 }

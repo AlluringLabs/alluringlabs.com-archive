@@ -4622,6 +4622,10 @@ a {
     .main-header .nav .nav-link:first-of-type {
       padding-left: 0px; }
 
+footer.main-footer {
+  background: #333;
+  padding: 20px 0; }
+
 .framework {
   background: #FFF;
   border-radius: 3px;

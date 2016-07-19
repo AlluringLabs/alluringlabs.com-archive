@@ -7,10 +7,8 @@
           <div class="service">
             <img src="http://placehold.it/350x200" alt="">
             <div class="info">
-              <div class="title">Some Service Name Here</div>
-              <div class="description">Using the latest and greatest technologies, we can help you improve your existing web applications or make your new idea(s) come to full fruition.
-
-We also enjoy our sanity, and making the end user happy, so the code we write is concise, clean and easily debuggable.</div>
+              <div class="title">Development</div>
+              <div class="description"></div>
               <div class="more"><a href="#">Learn More</a></div>
             </div>
           </div>
@@ -19,10 +17,8 @@ We also enjoy our sanity, and making the end user happy, so the code we write is
           <div class="service">
             <img src="http://placehold.it/350x200" alt="">
             <div class="info">
-              <div class="title">Some Service Name Here</div>
-              <div class="description">Using the latest and greatest technologies, we can help you improve your existing web applications or make your new idea(s) come to full fruition.
-
-We also enjoy our sanity, and making the end user happy, so the code we write is concise, clean and easily debuggable.</div>
+              <div class="title">UI &amp; UX Design</div>
+              <div class="description"></div>
               <div class="more"><a href="#">Learn More</a></div>
             </div>
           </div>
@@ -31,10 +27,8 @@ We also enjoy our sanity, and making the end user happy, so the code we write is
           <div class="service">
             <img src="http://placehold.it/350x200" alt="">
             <div class="info">
-              <div class="title">Some Service Name Here</div>
-              <div class="description">Using the latest and greatest technologies, we can help you improve your existing web applications or make your new idea(s) come to full fruition.
-
-We also enjoy our sanity, and making the end user happy, so the code we write is concise, clean and easily debuggable.</div>
+              <div class="title">Consulting</div>
+              <div class="description"></div>
               <div class="more"><a href="#">Learn More</a></div>
             </div>
           </div>
@@ -42,7 +36,7 @@ We also enjoy our sanity, and making the end user happy, so the code we write is
       </div>
     </div>
     <div class="footer m-t-1">
-      <a href="/blog" class="large-link-btn">
+      <a href="/services" class="large-link-btn">
         Learn more about our services
       </a>
     </div>
