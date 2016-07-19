@@ -22,7 +22,7 @@
     <div class="pull-md-left">
       <div class="site-name">
         <span>Alluring</span>
-        @include('partials.logo-svg')
+        {{-- @include('partials.logo-svg') --}}
         <span>Labs</span>
       </div>
     </div>
