@@ -15,7 +15,12 @@
             <img src="http://placehold.it/350x200" alt="">
             <div class="info">
               <div class="name">Joshua Kidd</div>
-              <div class="social"></div>
+              <div class="social">
+                <a href="http://g33kidd.com"><i class="fa fa-globe"></i></a>
+                <a href="http://twitter.com/g33kidd"><i class="fa fa-twitter"></i></a>
+                <a href="http://dribbble.com/g33kidd"><i class="fa fa-dribbble"></i></a>
+                <a href="http://instagram.com/g33kidd"><i class="fa fa-instagram"></i></a>
+              </div>
               <div class="description">Some dumb description about this person.</div>
             </div>
           </div>
@@ -24,17 +29,7 @@
           <div class="team">
             <img src="http://placehold.it/350x200" alt="">
             <div class="info">
-              <div class="name">Joshua Kidd</div>
-              <div class="social"></div>
-              <div class="description">Some dumb description about this person.</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-6">
-          <div class="team">
-            <img src="http://placehold.it/350x200" alt="">
-            <div class="info">
-              <div class="name">Joshua Kidd</div>
+              <div class="name">David Jenkins</div>
               <div class="social"></div>
               <div class="description">Some dumb description about this person.</div>
             </div>
