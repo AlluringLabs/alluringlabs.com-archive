@@ -2,10 +2,34 @@
 
 .top-bar {
   display: block;
-  height: 10px;
   position: relative;
   background: #55A9C7;
   z-index: 20;
+
+  .contact {
+    padding: 10px 0;
+    .item {
+      float: right;
+      margin-right: 40px;
+
+      &:first-of-type {
+        margin-right: 0px;
+      }
+
+      i {
+        font-size: 1.1rem;
+        padding-right: 3px;
+      }
+      a {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: $light-grey;
+        &:hover {
+          color: $dark-blue;
+        }
+      }
+    }
+  }
 }
 
 .main-header {
@@ -36,6 +60,10 @@
       &.active {
         color: #3E7C92;
         font-weight: 600;
+      }
+
+      &:hover {
+        color: $dark-blue;
       }
 
       &:first-of-type {

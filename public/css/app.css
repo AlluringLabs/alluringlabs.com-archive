@@ -4594,10 +4594,25 @@ a {
 
 .top-bar {
   display: block;
-  height: 10px;
   position: relative;
   background: #55A9C7;
   z-index: 20; }
+  .top-bar .contact {
+    padding: 10px 0; }
+    .top-bar .contact .item {
+      float: right;
+      margin-right: 40px; }
+      .top-bar .contact .item:first-of-type {
+        margin-right: 0px; }
+      .top-bar .contact .item i {
+        font-size: 1.1rem;
+        padding-right: 3px; }
+      .top-bar .contact .item a {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: #FBFBFB; }
+        .top-bar .contact .item a:hover {
+          color: #3E7C92; }
 
 .main-header {
   background: #F6F6F6;
@@ -4619,6 +4634,8 @@ a {
     .main-header .nav .nav-link.active {
       color: #3E7C92;
       font-weight: 600; }
+    .main-header .nav .nav-link:hover {
+      color: #3E7C92; }
     .main-header .nav .nav-link:first-of-type {
       padding-left: 0px; }
 
