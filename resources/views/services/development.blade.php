@@ -24,10 +24,4 @@
 	  </div>
 	</section>
 
-
-	{{-- @include('partials.services.hero')
-	@include('partials.services.development')
-	@include('partials.services.consulting')
-	@include('partials.services.') --}}
-
 @endsection

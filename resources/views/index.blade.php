@@ -5,4 +5,5 @@
   {{-- @include('partials.posts', ['posts' => $posts]) --}}
   @include('partials.services')
   @include('partials.team')
+  @include('partials.github')
 @endsection
