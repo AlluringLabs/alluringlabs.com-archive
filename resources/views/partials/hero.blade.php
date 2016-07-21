@@ -9,7 +9,6 @@
       <div class="header thin light m-b-1">What we work with</div>
       <div class="row">
         <div class="col-md-3 col-lg-3 col-sm-6">
-          {{-- TODO: Turn these into links or something to somewhere --}}
           <div class="framework dark-hover">
             <img src="/img/laravel-logo.png" alt="" class="logo">
             <div class="name">Laravel</div>

@@ -4736,6 +4736,22 @@ section.section.bg-none {
 section.section.bg-light {
   background: #FFF; }
 
+section.section.github {
+  padding: 50px 0; }
+  section.section.github .gh-icon i {
+    font-size: 20rem;
+    color: #3A3A3A; }
+  section.section.github .section-title {
+    font-size: 3rem;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  section.section.github p {
+    line-height: 1.2;
+    font-size: 20px; }
+  section.section.github a {
+    font-size: 18px; }
+
 section.section.hero {
   padding: 40px 0;
   position: relative; }
@@ -4778,7 +4794,6 @@ section.section .footer .large-link {
 
 section.section .footer .large-link-btn {
   font-size: 20px;
-  text-transform: uppercase;
   color: #FFF;
   padding: 15px 30px;
   margin: 0 auto;

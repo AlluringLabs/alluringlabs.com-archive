@@ -23,6 +23,29 @@ section.section {
     background: #FFF;
   }
 
+  &.github {
+    padding: 50px 0;
+    .gh-icon {
+      i {
+        font-size: 20rem;
+        color: #3A3A3A;
+      }
+    }
+    .section-title {
+      font-size: 3rem;
+      font-weight: 300;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    p {
+      line-height: 1.2;
+      font-size: 20px;
+    }
+    a {
+      font-size: 18px;
+    }
+  }
+
   &.hero {
     padding: 40px 0;
     position: relative;
@@ -87,7 +110,6 @@ section.section {
     }
     .large-link-btn {
       font-size: 20px;
-      text-transform: uppercase;
       color: $light-text;
       padding: 15px 30px;
       margin: 0 auto;

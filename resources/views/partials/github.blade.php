@@ -1,7 +1,7 @@
-<section class="section bg-light padded">
+<section class="section bg-light padded github">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6 col-sm-6 github-section-icon">
+      <div class="col-xs-12 col-md-6 col-sm-6 gh-icon">
         <i class="fa fa-github"></i>
       </div>
 

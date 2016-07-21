@@ -16,11 +16,6 @@ Route::get('/contact', 'ContactController@index')->name('contact');
 Route::get('/tools', 'ToolsController@index')->name('tools');
 Route::get('/work', 'WorkController@index')->name('work');
 
-Route::group(['prefix' => 'blog'], function() {
-    Route::get('/', 'BlogController@index')->name('blog');
-    Route::get('/{slug}', 'BlogController@show')->name('blog.show');
-});
-
 Route::group(['prefix' => 'services'], function() {
 	Route::get('/', 'ServicesController@index')->name('services');
 	Route::get('/development', 'ServicesController@development')->name('services.dev');
